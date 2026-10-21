@@ -1,3 +1,11 @@
+#-----------------------------------
+#  IMAGE FINGERPRINT PRNU PROJECT 
+#
+# Author:
+# hadi Sarhangi Fard
+#
+#-----------------------------------
+
 """Downloads and unpacks the input data from the GitHub release into the folders the scripts expect.
    python download_data.py          (needs internet; ~400 MB)"""
 import io, os, shutil, urllib.request, zipfile
