@@ -1,0 +1,20 @@
+# data is downloaded by download_data.py
+originals/
+raw_extract/
+ai_new/
+tamper_set/
+photos25/
+photos39/
+final_series/
+raw_imgs/
+*.zip
+*.pkl
+chunks/
+preview/
+cache_v2b.json
+Ava.and.Sophi.jpg
+fingerprint.on.lens.jpg
+Examples-fingerprints.webp
+phone_*.jpg
+*.mp4
+__pycache__/
