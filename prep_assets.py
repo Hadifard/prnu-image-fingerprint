@@ -1,3 +1,11 @@
+#-----------------------------------
+#  IMAGE FINGERPRINT PRNU PROJECT 
+#
+# Author:
+# hadi Sarhangi Fard
+#
+#-----------------------------------
+
 """
 Computes every real number / image the video needs, using the functions of prnu_detect.py (25-image demo folder).
 Result is cached in assets.pkl (render.py only draws).
