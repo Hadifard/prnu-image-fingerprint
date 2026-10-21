@@ -1,3 +1,10 @@
+#-----------------------------------
+#  IMAGE FINGERPRINT PRNU PROJECT 
+#
+# Author:
+# hadi Sarhangi Fard
+#
+#-----------------------------------
 """Runs the whole project, step by step (about 40 min on a 2-core CPU, most of it Part 2).
 
   python run_all.py              data -> detector -> assets -> Part 2 -> both videos
