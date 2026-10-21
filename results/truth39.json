@@ -1,0 +1,236 @@
+{
+ "20230504_131116.jpg": {
+  "kind": "real",
+  "group": "cam_samsung",
+  "label": "flowers 1",
+  "disp": "originals/20230504_131116.jpg"
+ },
+ "20230505_125151.jpg": {
+  "kind": "real",
+  "group": "cam_samsung",
+  "label": "flowers 2",
+  "disp": "originals/20230505_125151.jpg"
+ },
+ "20230527_214315.jpg": {
+  "kind": "real",
+  "group": "cam_samsung",
+  "label": "boiler room",
+  "disp": "originals/20230527_214315.jpg"
+ },
+ "20240421_174950.jpg": {
+  "kind": "real",
+  "group": "none",
+  "label": "wisteria",
+  "disp": "originals/20240421_174950.jpg"
+ },
+ "20240509_210037.jpg": {
+  "kind": "real",
+  "group": "cam_samsung",
+  "label": "globe",
+  "disp": "originals/20240509_210037.jpg"
+ },
+ "20240518_203321.jpg": {
+  "kind": "real",
+  "group": "cam_samsung",
+  "label": "gate",
+  "disp": "originals/20240518_203321.jpg"
+ },
+ "20240520_070750.jpg": {
+  "kind": "real",
+  "group": "none",
+  "label": "corridor (ultra-wide lens)",
+  "disp": "originals/20240520_070750.jpg"
+ },
+ "20240520_131048.jpg": {
+  "kind": "real",
+  "group": "cam_samsung",
+  "label": "cat on bed",
+  "disp": "originals/20240520_131048.jpg"
+ },
+ "IMG_1751.png": {
+  "kind": "sim",
+  "group": "cam_sim_a",
+  "label": "girl in toy car",
+  "disp": "originals/girl.jpg"
+ },
+ "IMG_6151.png": {
+  "kind": "sim",
+  "group": "cam_sim_a",
+  "label": "cat at the plane window",
+  "disp": "originals/cat_plane.jpg"
+ },
+ "IMG_7940.jpg": {
+  "kind": "real",
+  "group": "none",
+  "label": "portrait (resized)",
+  "disp": "originals/man.jpg"
+ },
+ "IMG_7677.png": {
+  "kind": "real",
+  "group": "none",
+  "label": "red-shirt portrait (edited PNG)",
+  "disp": "originals/red_shirt.png"
+ },
+ "IMG_4993.jpg": {
+  "kind": "real",
+  "group": "cam_a40",
+  "label": "Samsung A40 \u00b7 photo 1",
+  "disp": "raw_extract/A40_00.jpg"
+ },
+ "IMG_7626.jpg": {
+  "kind": "real",
+  "group": "cam_a40",
+  "label": "Samsung A40 \u00b7 photo 2",
+  "disp": "raw_extract/A40_02.jpg"
+ },
+ "IMG_5930.jpg": {
+  "kind": "real",
+  "group": "cam_s7",
+  "label": "Samsung S7 \u00b7 photo 1",
+  "disp": "raw_extract/S7_00.jpg"
+ },
+ "IMG_4022.jpg": {
+  "kind": "real",
+  "group": "cam_s7",
+  "label": "Samsung S7 \u00b7 photo 2",
+  "disp": "raw_extract/S7_03.jpg"
+ },
+ "IMG_4979.jpg": {
+  "kind": "real",
+  "group": "cam_s7",
+  "label": "Samsung S7 \u00b7 photo 3",
+  "disp": "raw_extract/S7_04.jpg"
+ },
+ "IMG_9651.jpg": {
+  "kind": "real",
+  "group": "cam_nokia",
+  "label": "Nokia 2.2 \u00b7 photo 1",
+  "disp": "raw_extract/nokia_01.jpg"
+ },
+ "IMG_2040.jpg": {
+  "kind": "real",
+  "group": "cam_nokia",
+  "label": "Nokia 2.2 \u00b7 photo 2",
+  "disp": "raw_extract/nokia_02.jpg"
+ },
+ "IMG_9295.jpg": {
+  "kind": "ai",
+  "group": "ai",
+  "label": "AI-generated portrait 1",
+  "disp": "ai_new/AI_generated_person_01.jpg"
+ },
+ "IMG_9058.jpg": {
+  "kind": "ai",
+  "group": "ai",
+  "label": "AI-generated portrait 2",
+  "disp": "ai_new/AI_generated_person_02.jpg"
+ },
+ "IMG_9826.jpg": {
+  "kind": "ai",
+  "group": "ai",
+  "label": "AI-generated portrait 3",
+  "disp": "ai_new/AI_generated_person_03.jpg"
+ },
+ "IMG_9081.jpg": {
+  "kind": "ai",
+  "group": "ai",
+  "label": "AI-generated portrait 4",
+  "disp": "ai_new/AI_generated_person_04.jpg"
+ },
+ "IMG_4791.jpg": {
+  "kind": "ai",
+  "group": "ai",
+  "label": "AI-generated portrait 5",
+  "disp": "ai_new/AI_generated_person_05.jpeg"
+ },
+ "IMG_5803.jpg": {
+  "kind": "ai",
+  "group": "ai",
+  "label": "AI-generated portrait 6",
+  "disp": "ai_new/AI_generated_person_06.jpg"
+ },
+ "IMG_1000.tif": {
+  "kind": "real",
+  "group": "cam_nikon_b",
+  "label": "Nikon \u00b7 4288\u00d72848 \u00b7 photo 1",
+  "disp": "final_series/r1f23f4ddt.tiff"
+ },
+ "IMG_1016.tif": {
+  "kind": "real",
+  "group": "cam_nikon_c",
+  "label": "Nikon \u00b7 4928\u00d73264 \u00b7 photo 1",
+  "disp": "final_series/r002fc3e2t.tiff"
+ },
+ "IMG_1038.tif": {
+  "kind": "real",
+  "group": "cam_nikon_c",
+  "label": "Nikon \u00b7 4928\u00d73264 \u00b7 photo 2",
+  "disp": "final_series/r00444b95t.tiff"
+ },
+ "IMG_1049.tif": {
+  "kind": "real",
+  "group": "cam_nikon_c",
+  "label": "Nikon \u00b7 4928\u00d73264 \u00b7 photo 3",
+  "disp": "final_series/r00617aa1t.tiff"
+ },
+ "IMG_1054.tif": {
+  "kind": "real",
+  "group": "cam_nikon_a",
+  "label": "Nikon \u00b7 3008\u00d72000 \u00b7 photo 1",
+  "disp": "final_series/r05d9d749t.tiff"
+ },
+ "IMG_1062.tif": {
+  "kind": "real",
+  "group": "cam_nikon_b",
+  "label": "Nikon \u00b7 4288\u00d72848 \u00b7 photo 2",
+  "disp": "final_series/r1f20d8b5t.tiff"
+ },
+ "IMG_1079.tif": {
+  "kind": "real",
+  "group": "cam_nikon_b",
+  "label": "Nikon \u00b7 4288\u00d72848 \u00b7 photo 3",
+  "disp": "final_series/r000da54ft.tiff"
+ },
+ "IMG_1180.tif": {
+  "kind": "real",
+  "group": "cam_nikon_a",
+  "label": "Nikon \u00b7 3008\u00d72000 \u00b7 photo 2",
+  "disp": "final_series/r0355b2d5t.tiff"
+ },
+ "IMG_1196.tif": {
+  "kind": "real",
+  "group": "cam_nikon_c",
+  "label": "Nikon \u00b7 4928\u00d73264 \u00b7 photo 4",
+  "disp": "final_series/r001d260dt.tiff"
+ },
+ "IMG_1212.tif": {
+  "kind": "real",
+  "group": "cam_nikon_b",
+  "label": "Nikon \u00b7 4288\u00d72848 \u00b7 photo 4",
+  "disp": "final_series/r1f1a9df4t.tiff"
+ },
+ "IMG_1246.tif": {
+  "kind": "real",
+  "group": "cam_nikon_a",
+  "label": "Nikon \u00b7 3008\u00d72000 \u00b7 photo 3",
+  "disp": "final_series/r12daa983t.tiff"
+ },
+ "IMG_1249.tif": {
+  "kind": "real",
+  "group": "cam_nikon_b",
+  "label": "Nikon \u00b7 4288\u00d72848 \u00b7 photo 5",
+  "disp": "final_series/r1f5ad4e0t.tiff"
+ },
+ "IMG_1292.tif": {
+  "kind": "real",
+  "group": "cam_nikon_b",
+  "label": "Nikon \u00b7 4288\u00d72848 \u00b7 photo 6",
+  "disp": "final_series/r005f3e70t.tiff"
+ },
+ "IMG_1352.tif": {
+  "kind": "real",
+  "group": "cam_nikon_a",
+  "label": "Nikon \u00b7 3008\u00d72000 \u00b7 photo 4",
+  "disp": "final_series/r0aaa70c3t.tiff"
+ }
+}

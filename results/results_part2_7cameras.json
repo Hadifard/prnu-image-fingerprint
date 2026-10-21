@@ -1,0 +1,362 @@
+{
+ "cameras": {
+  "A33": "Samsung A33",
+  "A40": "Samsung A40",
+  "S7": "Samsung S7",
+  "NOKIA": "Nokia 2.2",
+  "NIKON_A": "Nikon 3008\u00d72000",
+  "NIKON_B": "Nikon 4288\u00d72848",
+  "NIKON_C": "Nikon 4928\u00d73264"
+ },
+ "edited_photo_tests": [
+  {
+   "file": "T1_crop.jpg",
+   "what": "crop 1600x1100",
+   "truth": "A33",
+   "verdict": "A33",
+   "PCE": {
+    "A33": 6653.5,
+    "A40": 50.1,
+    "S7": 48.4,
+    "NOKIA": 49.8,
+    "NIKON_A": 48.0,
+    "NIKON_B": 35.5,
+    "NIKON_C": 47.4
+   }
+  },
+  {
+   "file": "T2_resize.jpg",
+   "what": "resize x0.644 + JPEG q85",
+   "truth": "A33",
+   "verdict": "A33",
+   "PCE": {
+    "A33": 2690.3,
+    "A40": 44.0,
+    "S7": 62.5,
+    "NOKIA": 46.6,
+    "NIKON_A": 43.9,
+    "NIKON_B": 30.7,
+    "NIKON_C": 42.1
+   }
+  },
+  {
+   "file": "T3_rot_crop_resize.jpg",
+   "what": "rotate 90 + crop + resize x0.8 + JPEG q88",
+   "truth": "A33",
+   "verdict": "A33",
+   "PCE": {
+    "A33": 1532.1,
+    "A40": 49.2,
+    "S7": 59.1,
+    "NOKIA": 50.7,
+    "NIKON_A": 50.7,
+    "NIKON_B": 37.3,
+    "NIKON_C": 54.6
+   }
+  },
+  {
+   "file": "T4_splice.jpg",
+   "what": "700x700 patch pasted from another camera (S7)",
+   "truth": "A33",
+   "verdict": "A33",
+   "PCE": {
+    "A33": 17896.2,
+    "A40": 45.3,
+    "S7": 11.3,
+    "NOKIA": 41.5,
+    "NIKON_A": 53.2,
+    "NIKON_B": 34.8,
+    "NIKON_C": 46.6
+   }
+  },
+  {
+   "file": "T5_retouch.jpg",
+   "what": "600x500 area removed + inpainted",
+   "truth": "A33",
+   "verdict": "A33",
+   "PCE": {
+    "A33": 48861.3,
+    "A40": 64.5,
+    "S7": 53.2,
+    "NOKIA": 54.3,
+    "NIKON_A": 44.8,
+    "NIKON_B": 29.9,
+    "NIKON_C": 52.4
+   }
+  },
+  {
+   "file": "T6_heavy.jpg",
+   "what": "rotate + crop + resize x0.5 + q80 (too much)",
+   "truth": "A33",
+   "verdict": "no match",
+   "PCE": {
+    "A33": 48.1,
+    "A40": 49.1,
+    "S7": 78.4,
+    "NOKIA": 58.7,
+    "NIKON_A": 53.5,
+    "NIKON_B": 33.5,
+    "NIKON_C": 51.6
+   }
+  },
+  {
+   "file": "X1_nikonA_crop.jpg",
+   "what": "Nikon 3008\u00d72000 \u00b7 crop 1800x1200",
+   "truth": "NIKON_A",
+   "verdict": "no match",
+   "PCE": {
+    "A33": 37.1,
+    "A40": 49.3,
+    "S7": 46.9,
+    "NOKIA": 50.3,
+    "NIKON_A": 38.0,
+    "NIKON_B": 36.9,
+    "NIKON_C": 57.0
+   }
+  },
+  {
+   "file": "X2_nikonB_resize.jpg",
+   "what": "Nikon 4288\u00d72848 \u00b7 resize x0.7 + JPEG q85",
+   "truth": "NIKON_B",
+   "verdict": "no match",
+   "PCE": {
+    "A33": 45.5,
+    "A40": 77.1,
+    "S7": 65.6,
+    "NOKIA": 48.6,
+    "NIKON_A": 37.9,
+    "NIKON_B": 33.1,
+    "NIKON_C": 60.6
+   }
+  },
+  {
+   "file": "20240421_174950.jpg",
+   "what": "wisteria \u00b7 16:9 mode (4000x2250)",
+   "truth": null,
+   "verdict": "A33",
+   "PCE": {
+    "A33": 11264.8,
+    "A40": 45.9,
+    "S7": 50.9,
+    "NOKIA": 43.1,
+    "NIKON_A": 41.5,
+    "NIKON_B": 29.2,
+    "NIKON_C": 57.6
+   }
+  },
+  {
+   "file": "20240520_070750.jpg",
+   "what": "corridor \u00b7 ultra-wide lens",
+   "truth": null,
+   "verdict": "no match",
+   "PCE": {
+    "A33": 40.0,
+    "A40": 55.3,
+    "S7": 50.1,
+    "NOKIA": 52.8,
+    "NIKON_A": 35.4,
+    "NIKON_B": 33.5,
+    "NIKON_C": 57.7
+   }
+  },
+  {
+   "file": "cat_plane.jpg",
+   "what": "cat at plane window \u00b7 resized 1437x2576",
+   "truth": null,
+   "verdict": "no match",
+   "PCE": {
+    "A33": 38.9,
+    "A40": 63.0,
+    "S7": 46.8,
+    "NOKIA": 52.0,
+    "NIKON_A": 48.2,
+    "NIKON_B": 34.0,
+    "NIKON_C": 56.0
+   }
+  },
+  {
+   "file": "girl.jpg",
+   "what": "girl \u00b7 resized copy 2576x1658",
+   "truth": null,
+   "verdict": "no match",
+   "PCE": {
+    "A33": 38.3,
+    "A40": 55.8,
+    "S7": 69.9,
+    "NOKIA": 50.9,
+    "NIKON_A": 44.2,
+    "NIKON_B": 38.9,
+    "NIKON_C": 50.8
+   }
+  },
+  {
+   "file": "man.jpg",
+   "what": "portrait \u00b7 640x640 enhanced",
+   "truth": null,
+   "verdict": "no match",
+   "PCE": {
+    "A33": 57.3,
+    "A40": 83.5,
+    "S7": 69.3,
+    "NOKIA": 68.4,
+    "NIKON_A": 75.7,
+    "NIKON_B": 39.1,
+    "NIKON_C": 70.4
+   }
+  },
+  {
+   "file": "red_shirt.png",
+   "what": "self-portrait \u00b7 edited PNG",
+   "truth": null,
+   "verdict": "no match",
+   "PCE": {
+    "A33": 40.9,
+    "A40": 48.3,
+    "S7": 49.7,
+    "NOKIA": 67.6,
+    "NIKON_A": 70.1,
+    "NIKON_B": 36.9,
+    "NIKON_C": 53.2
+   }
+  }
+ ],
+ "genuine_leave_one_out_PCE": [
+  {
+   "file": "20230504_131116.jpg",
+   "camera": "A33",
+   "PCE": 85672.7
+  },
+  {
+   "file": "20230505_125151.jpg",
+   "camera": "A33",
+   "PCE": 107574.7
+  },
+  {
+   "file": "20230527_214315.jpg",
+   "camera": "A33",
+   "PCE": 53045.9
+  },
+  {
+   "file": "20240509_210037.jpg",
+   "camera": "A33",
+   "PCE": 94349.3
+  },
+  {
+   "file": "20240518_203321.jpg",
+   "camera": "A33",
+   "PCE": 150715.0
+  },
+  {
+   "file": "20240520_131048.jpg",
+   "camera": "A33",
+   "PCE": 121291.1
+  },
+  {
+   "file": "A40_00.jpg",
+   "camera": "A40",
+   "PCE": -0.1
+  },
+  {
+   "file": "A40_02.jpg",
+   "camera": "A40",
+   "PCE": -0.0
+  },
+  {
+   "file": "S7_00.jpg",
+   "camera": "S7",
+   "PCE": 106.4
+  },
+  {
+   "file": "S7_03.jpg",
+   "camera": "S7",
+   "PCE": 278.4
+  },
+  {
+   "file": "S7_04.jpg",
+   "camera": "S7",
+   "PCE": 201.3
+  },
+  {
+   "file": "nokia_01.jpg",
+   "camera": "NOKIA",
+   "PCE": 49.3
+  },
+  {
+   "file": "nokia_02.jpg",
+   "camera": "NOKIA",
+   "PCE": 79.5
+  },
+  {
+   "file": "IMG_1054.tif",
+   "camera": "NIKON_A",
+   "PCE": 433.4
+  },
+  {
+   "file": "IMG_1180.tif",
+   "camera": "NIKON_A",
+   "PCE": 836.4
+  },
+  {
+   "file": "IMG_1246.tif",
+   "camera": "NIKON_A",
+   "PCE": 2107.8
+  },
+  {
+   "file": "IMG_1352.tif",
+   "camera": "NIKON_A",
+   "PCE": 998.6
+  },
+  {
+   "file": "IMG_1000.tif",
+   "camera": "NIKON_B",
+   "PCE": 1515.9
+  },
+  {
+   "file": "IMG_1062.tif",
+   "camera": "NIKON_B",
+   "PCE": 1733.8
+  },
+  {
+   "file": "IMG_1079.tif",
+   "camera": "NIKON_B",
+   "PCE": 0.0
+  },
+  {
+   "file": "IMG_1212.tif",
+   "camera": "NIKON_B",
+   "PCE": 2125.1
+  },
+  {
+   "file": "IMG_1249.tif",
+   "camera": "NIKON_B",
+   "PCE": 1179.6
+  },
+  {
+   "file": "IMG_1292.tif",
+   "camera": "NIKON_B",
+   "PCE": 715.1
+  },
+  {
+   "file": "IMG_1016.tif",
+   "camera": "NIKON_C",
+   "PCE": 65.3
+  },
+  {
+   "file": "IMG_1038.tif",
+   "camera": "NIKON_C",
+   "PCE": 146.2
+  },
+  {
+   "file": "IMG_1049.tif",
+   "camera": "NIKON_C",
+   "PCE": 87.6
+  },
+  {
+   "file": "IMG_1196.tif",
+   "camera": "NIKON_C",
+   "PCE": 162.5
+  }
+ ],
+ "impostor_max_PCE": 32.3,
+ "impostor_comparisons": 162
+}
