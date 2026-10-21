@@ -1,3 +1,11 @@
+#-----------------------------------
+#  IMAGE FINGERPRINT PRNU PROJECT 
+#
+# Author:
+# hadi Sarhangi Fard
+#
+#-----------------------------------
+
 """Extra real data + charts for the video (adds keys to assets.pkl). Uses the functions of prnu_detect.py."""
 import os, pickle, sys
 import numpy as np
