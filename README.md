@@ -66,12 +66,12 @@ The detector itself is classical and interpretable on purpose. Deep learning plu
 
 ```mermaid
 flowchart LR
-    A[Photo I] --> B[Noise residual W = I - F&#40;I&#41;]
-    B --> C{Compare}
-    R[Camera fingerprint K̂<br/>from n photos] --> C
-    C -->|z-score / PCE| D[Same camera?]
-    C -->|local window correlation| E[Where was it edited?]
-    G[Geometry search<br/>rotation x scale x shift] --> C
+    A["Photo I"] --> B["Noise residual: W = I - F(I)"]
+    B --> C{"Compare"}
+    R["Camera fingerprint K_hat<br/>from n photos"] --> C
+    C -->|"z-score / PCE"| D["Same camera?"]
+    C -->|"Local window correlation"| E["Where was it edited?"]
+    G["Geometry search<br/>rotation x scale x shift"] --> C
 ```
 
 **Part 1 · `prnu_detect.py`** (the whole method in ~40 lines): residual = image − Gaussian blur, row/column pattern removed, edges muted; correlate every pair; `z = r·√N > 10` means *same camera*. Portrait photos are tried in both rotation directions.
