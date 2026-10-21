@@ -1,3 +1,11 @@
+#-----------------------------------
+#  IMAGE FINGERPRINT PRNU PROJECT 
+#
+# Author:
+# hadi Sarhangi Fard
+#
+#-----------------------------------
+
 """
 prep_v2.py - every number / image of PART 2 (modern PRNU) -> assets_v2.pkl
   * 4 camera fingerprints (A33 main, A40, S7, Nokia 2.2) estimated from real photos
