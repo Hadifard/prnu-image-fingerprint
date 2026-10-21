@@ -1,3 +1,11 @@
+#-----------------------------------
+#  IMAGE FINGERPRINT PRNU PROJECT 
+#
+# Author:
+# hadi Sarhangi Fard
+#
+#-----------------------------------
+
 """Finds the rotation direction (k=1 or 3) of every portrait Nikon TIFF so that all photos of one body share one sensor frame."""
 import json, os, sys, time
 import numpy as np
