@@ -1,3 +1,11 @@
+#-----------------------------------
+#  IMAGE FINGERPRINT PRNU PROJECT 
+#
+# Author:
+# hadi Sarhangi Fard
+#
+#-----------------------------------
+
 """Re-computes the scale-scan curves with a large patch and adds an untouched-crop tamper map (adds keys to assets_v2.pkl)."""
 import pickle, numpy as np, cv2, os
 import prnu_v2 as P
