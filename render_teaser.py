@@ -1,3 +1,10 @@
+#-----------------------------------
+#  IMAGE FINGERPRINT PRNU PROJECT 
+#
+# Author:
+# hadi Sarhangi Fard
+#
+#-----------------------------------
 """
 PRNU video (1920x1080, 16:9 - works on YouTube and LinkedIn).  English subtitles only, no speech, no music.
 Every number and image comes from assets.pkl / assets_v2.pkl, computed by prep_assets.py, prep_extra.py, prep_v2.py and curves.py.
