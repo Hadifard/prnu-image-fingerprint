@@ -1,0 +1,50 @@
+images: 39   match: z > 10 sigmas
+
+20230504_131116.jpg  r=+0.060  z= 121.9  peak=  7.1  camera 1
+20230505_125151.jpg  r=+0.072  z= 147.1  peak= 11.2  camera 1
+20230527_214315.jpg  r=+0.063  z= 130.0  peak= 11.5  camera 1
+20240421_174950.jpg  r=+0.003  z=   5.7  peak=  9.3  unmatched
+20240509_210037.jpg  r=+0.049  z= 100.8  peak=  7.5  camera 1
+20240518_203321.jpg  r=+0.105  z= 215.8  peak= 17.0  camera 1
+20240520_070750.jpg  r=+0.002  z=   3.2  peak= 23.5  unmatched
+20240520_131048.jpg  r=+0.105  z= 215.8  peak= 10.6  camera 1
+IMG_1000.tif  r=+0.009  z=  17.5  peak= 14.3  camera 2
+IMG_1016.tif  r=+0.002  z=   4.4  peak=  7.5  unmatched
+IMG_1038.tif  r=+0.002  z=   4.4  peak= 12.1  unmatched
+IMG_1049.tif  r=+0.003  z=   5.9  peak=  9.7  unmatched
+IMG_1054.tif  r=+0.007  z=  14.1  peak=  6.0  camera 3
+IMG_1062.tif  r=+0.008  z=  15.5  peak= 19.1  camera 2
+IMG_1079.tif  r=+0.004  z=   3.0  peak=  5.4  unmatched
+IMG_1180.tif  r=+0.011  z=  21.8  peak=  8.2  camera 3
+IMG_1196.tif  r=+0.003  z=   5.9  peak=  9.8  unmatched
+IMG_1212.tif  r=+0.009  z=  17.5  peak= 17.4  camera 2
+IMG_1246.tif  r=+0.011  z=  21.8  peak=  8.0  camera 3
+IMG_1249.tif  r=+0.008  z=  16.2  peak=  8.5  camera 2
+IMG_1292.tif  r=+0.005  z=   9.9  peak= 22.1  unmatched
+IMG_1352.tif  r=+0.011  z=  21.4  peak=  7.6  camera 3
+IMG_1751.png  r=+0.063  z=  90.6  peak=  8.1  camera 4
+IMG_2040.jpg  r=+0.004  z=   7.6  peak=  8.7  unmatched
+IMG_4022.jpg  r=+0.007  z=  13.5  peak=  8.4  camera 5
+IMG_4791.jpg  r=+0.005  z=   3.4  peak=  6.0  unmatched
+IMG_4979.jpg  r=+0.007  z=  13.5  peak=  6.2  camera 5
+IMG_4993.jpg  r=+0.004  z=   3.2  peak=  8.6  unmatched
+IMG_5803.jpg  r=+0.003  z=   3.2  peak=  6.9  unmatched
+IMG_5930.jpg  r=+0.006  z=  13.1  peak=  8.5  camera 5
+IMG_6151.png  r=+0.063  z=  90.6  peak=  7.4  camera 4
+IMG_7626.jpg  r=+0.002  z=   3.8  peak=  6.2  unmatched
+IMG_7677.png  r=+0.004  z=   3.1  peak=  7.6  unmatched
+IMG_7940.jpg  r=+0.007  z=   4.5  peak=  6.0  unmatched
+IMG_9058.jpg  r=+0.007  z=   3.2  peak=  7.1  unmatched
+IMG_9081.jpg  r=+0.003  z=   3.9  peak= 13.7  unmatched
+IMG_9295.jpg  r=+0.004  z=   3.2  peak=  7.4  unmatched
+IMG_9651.jpg  r=+0.004  z=   7.6  peak=  6.9  unmatched
+IMG_9826.jpg  r=+0.004  z=   3.2  peak=  8.2  unmatched
+
+summary
+  camera 1: 6 images
+  camera 2: 4 images
+  camera 3: 4 images
+  camera 4: 2 images
+  camera 5: 3 images
+  unmatched: 20 images
+saved result39.png
