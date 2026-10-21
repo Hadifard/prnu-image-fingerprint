@@ -85,7 +85,7 @@ W   = P.extract_noise(g)                             # residual
 K   = P.estimate_fingerprint(grays, noises)          # ML fingerprint from n photos
 ref = P.Reference(K)
 hit = P.search(g, ref, scales=[1.0, 0.8, 0.644], rots=(0, 1, 2, 3))
-print(hit["pce"], hit["scale"], hit["rot"], hit["shift"])   # PCE > 60  ->  same camera
+print(hit["pce"], hit["scale"], hit["rot"], hit["shift"])   # PCE > 60 -> same camera
 ```
 
 ---
