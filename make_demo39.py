@@ -1,3 +1,11 @@
+#-----------------------------------
+#  IMAGE FINGERPRINT PRNU PROJECT 
+#
+# Author:
+# hadi Sarhangi Fard
+#
+#-----------------------------------
+
 """
 Builds the 39-image demo folder (photos39/) = the 25-image folder + 14 new TIFF photos of three Nikon bodies.
 New photos get neutral names IMG_xxxx.tif so the file name gives nothing away. truth39.json holds the ground truth.
